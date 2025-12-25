@@ -5,3 +5,7 @@ const menu = [
     {kode: "ET", nama: "Es Teh Manis", harga: 5000},
     {kode: "EJ", nama: "Es Jeruk Peras", harga: 8000},
 ];
+
+module.exports = {
+    menu,
+}
