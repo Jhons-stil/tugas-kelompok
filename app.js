@@ -11,14 +11,5 @@ function tanya(pertanyaan) {
     });
 };
 
-async function tampilMenu() {
-    console.log(`
-    --=( Warung BABA CHAN)=--
 
-Daftar Menu:`);
-    menu.forEach(element => {
-        console.log(`- (${element.kode}) ${element.nama} - ${element.harga}`);
-        
-    });
-};
 
